@@ -35,3 +35,5 @@
   (let [output (-> (get-input-output text) :output deref)
         input (-> (get-input-output text) :input deref eval)]
     (= input output)))
+
+(def a [])
